@@ -1,13 +1,13 @@
 # BUILD IMAGE
-# $ docker build --no-cache -t qnamaker-py3-create-kb .
+# $ docker build --no-cache -t qnamaker-py3-publish .
 #
 # RUN CODE
 #
 # WINDOWS BASH COMMAND 
-# $ winpty docker run -it --rm --name qnamaker-py3-create-kb qnamaker-py3-create-kb
+# $ winpty docker run -it --rm --name qnamaker-py3-publish publish
 #
 # NON-WINDOWS
-# $ docker run -it --rm --name qnamaker-py3-create-kb qnamaker-py3-create-kb
+# $ docker run -it --rm --name qnamaker-py3-publish publish
 
 FROM python:3
 
